@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+.textButton {
+    color: #c9e265;
+    width: 60%;
+}
+
+img{
+    scale: 100%;
+    flex-grow: 1
+}
+
+h1 {
+    font: 'League Spartan';
+    color: #102225;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: normal;
+    color: #102225;
+    margin-bottom: 2.5rem;
+}
+
+button {
+    background-color: #c9e265;
+    font: 'Roboto Condensed';
+    border: 0rem;
+    color: #102225;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+
+.button:hover {
+    background-color: #7ed957;
+    color: white;
+  }
